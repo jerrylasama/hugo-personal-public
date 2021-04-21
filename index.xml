@@ -87,7 +87,7 @@
 &lt;p&gt;$$
 F1-Score = \frac{2\times precision \times recall}{ precision + recall}
 $$&lt;/p&gt;
-&lt;p&gt;You can use &lt;code&gt;hist&lt;/code&gt; later to calculate F1-Score&lt;/p&gt;
+&lt;p&gt;You can use &lt;code&gt;hist&lt;/code&gt; object later to calculate F1-Score&lt;/p&gt;
 &lt;h2 id=&#34;plotting-the-result&#34;&gt;Plotting the result&lt;/h2&gt;
 &lt;p&gt;You can utilize &lt;code&gt;hist&lt;/code&gt; to plot the model performance by using the metric as the key. For example:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Show all keys&lt;/span&gt;
