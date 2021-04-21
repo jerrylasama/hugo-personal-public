@@ -2,89 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jerry Lasama</title>
-    <link>http://localhost/public/tags/</link>
+    <link>http://jerrylasama.xyz/tags/</link>
     <description>Recent content in Tags on Jerry Lasama</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost/public/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jerrylasama.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>css</title>
-      <link>http://localhost/public/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>data</title>
+      <link>http://jerrylasama.xyz/tags/data/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/public/tags/css/</guid>
+      <guid>http://jerrylasama.xyz/tags/data/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>html</title>
-      <link>http://localhost/public/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>en</title>
+      <link>http://jerrylasama.xyz/tags/en/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/public/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>markdown</title>
-      <link>http://localhost/public/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/public/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>http://localhost/public/tags/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/public/tags/themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
-      <link>http://localhost/public/tags/privacy/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/public/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shortcodes</title>
-      <link>http://localhost/public/tags/shortcodes/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/public/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tag with whitespaces</title>
-      <link>http://localhost/public/tags/tag-with-whitespaces/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/public/tags/tag-with-whitespaces/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>text</title>
-      <link>http://localhost/public/tags/text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/public/tags/text/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emoji</title>
-      <link>http://localhost/public/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/public/tags/emoji/</guid>
+      <guid>http://jerrylasama.xyz/tags/en/</guid>
       <description></description>
     </item>
     

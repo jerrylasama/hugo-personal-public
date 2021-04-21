@@ -2,37 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Jerry Lasama</title>
-    <link>http://localhost/public/page/</link>
+    <link>http://jerrylasama.xyz/page/</link>
     <description>Recent content in Pages on Jerry Lasama</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost/public/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jerrylasama.xyz/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://jerrylasama.xyz/about/</link>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerrylasama.xyz/about/</guid>
+      <description>I love tackling hard problems and learn new stuff. Turning messy data into insight and solutions.Reach me at:
+GitHubLinkedIn</description>
+    </item>
+    
+    <item>
+      <title>Recent Researches</title>
+      <link>http://jerrylasama.xyz/researches/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerrylasama.xyz/researches/</guid>
+      <description>2021  Object Detection for Using Mask in COVID-19 Pandemic with Faster R_CNN Inception V2 Algorithm  Proceedings of the 1st International Conference on Electronics, Biomedical Engineering, and Health Informatics
+  2019  Prediksi Tsunami Pada Gempa Menggunakan Random Forest Classifier  Conference on Electrical Engineering, Telematics, Industrial technology, and Creative Media (CENTIVE)
+     Scholar: https://scholar.google.com/citations?user=5Pcz5YsAAAAJ&amp;hl
+ORCID: https://orcid.org/0000-0003-3309-6996</description>
+    </item>
+    
     <item>
       <title>Archives</title>
-      <link>http://localhost/public/archives/</link>
+      <link>http://jerrylasama.xyz/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/public/archives/</guid>
+      <guid>http://jerrylasama.xyz/archives/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>http://localhost/public/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/public/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
- https://github.</description>
-    </item>
-    
-    <item>
       <title>Search</title>
-      <link>http://localhost/public/search/</link>
+      <link>http://jerrylasama.xyz/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/public/search/</guid>
+      <guid>http://jerrylasama.xyz/search/</guid>
       <description></description>
     </item>
     
