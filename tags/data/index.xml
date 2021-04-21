@@ -16,8 +16,7 @@
       <description>{{ if or .Params.math .Site.Params.math }} {{ partial &amp;ldquo;math.html&amp;rdquo; . }} {{ end }}
 Requirements  TensorFlow 2 Numpy Pillow Matplotlib / Seaborn / Your preferred data visualization library  You can easily install those libraries by using pip or conda. For example:
 pip install tensorflow Preparing The Dataset Suppose you have a directory categorized per folder like this:
-dataset/
-├─ train/ │ ├─ dog/ │ │ ├─ dog001.jpg │ │ ├─ dog002.</description>
+dataset/├─ train/│ ├─ dog/│ │ ├─ dog001.jpg│ │ ├─ dog002.jpg│ ├─ cat/│ │ ├─ cat001.</description>
     </item>
     
   </channel>

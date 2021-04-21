@@ -255,20 +255,20 @@
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">pip install tensorflow
 </code></pre></div><h2 id="preparing-the-dataset">Preparing The Dataset</h2>
 <p>Suppose you have a directory categorized per folder like this:</p>
-<p>dataset/<br>
-├─ train/<br/>
-│ ├─ dog/<br/>
-│ │ ├─ dog001.jpg<br/>
-│ │ ├─ dog002.jpg<br/>
-│ ├─ cat/<br/>
-│ │ ├─ cat001.jpg<br/>
-│ │ ├─ cat002.jpg<br/>
-├─ valid/<br/>
-│ ├─ dog/<br/>
-│ │ ├─ dog001.jpg<br/>
-│ ├─ cat/<br/>
-│ │ ├─ cat001.jpg<br/></p>
-<p>You can load the images using <a href="https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator">ImageDataGenerator</a> it would automatically generate the class based on the folder.</p>
+<p>dataset/<!-- raw HTML omitted -->
+├─ train/<!-- raw HTML omitted -->
+│ ├─ dog/<!-- raw HTML omitted -->
+│ │ ├─ dog001.jpg<!-- raw HTML omitted -->
+│ │ ├─ dog002.jpg<!-- raw HTML omitted -->
+│ ├─ cat/<!-- raw HTML omitted -->
+│ │ ├─ cat001.jpg<!-- raw HTML omitted -->
+│ │ ├─ cat002.jpg<!-- raw HTML omitted -->
+├─ valid/<!-- raw HTML omitted -->
+│ ├─ dog/<!-- raw HTML omitted -->
+│ │ ├─ dog001.jpg<!-- raw HTML omitted -->
+│ ├─ cat/<!-- raw HTML omitted -->
+│ │ ├─ cat001.jpg<!-- raw HTML omitted --></p>
+<p>You can load the images using <!-- raw HTML omitted -->ImageDataGenerator<!-- raw HTML omitted --> it would automatically generate the class based on the folder.</p>
 <p>Import the libraries that we will use later on</p>
 <div class="highlight"><pre class="chroma"><code class="language-py" data-lang="py"><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="kn">as</span> <span class="nn">tf</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
@@ -289,7 +289,7 @@
 <span class="n">train</span> <span class="o">=</span> <span class="n">img_data_generator</span><span class="o">.</span><span class="n">flow_from_directory</span><span class="p">(</span><span class="n">directory</span><span class="o">=</span><span class="n">train_dir</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="n">batch_size</span><span class="p">,</span> <span class="n">shuffle</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">seed</span><span class="o">=</span><span class="n">seed</span><span class="p">,</span> <span class="n">target_size</span><span class="o">=</span><span class="n">target_size</span><span class="p">,</span> <span class="n">class_mode</span><span class="o">=</span><span class="s1">&#39;categorical&#39;</span><span class="p">)</span>
 <span class="n">valid</span> <span class="o">=</span> <span class="n">img_data_generator</span><span class="o">.</span><span class="n">flow_from_directory</span><span class="p">(</span><span class="n">directory</span><span class="o">=</span><span class="n">valid_dir</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="n">batch_size</span><span class="p">,</span> <span class="n">shuffle</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">seed</span><span class="o">=</span><span class="n">seed</span><span class="p">,</span> <span class="n">target_size</span><span class="o">=</span><span class="n">target_size</span><span class="p">,</span> <span class="n">class_mode</span><span class="o">=</span><span class="s1">&#39;categorical&#39;</span><span class="p">)</span>
 </code></pre></div><h2 id="building-the-model">Building the model</h2>
-<p>In this example, I will use<a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications">keras.applications</a>MobileNetV2 you can use any other model you prefer</p>
+<p>In this example, I will use<!-- raw HTML omitted -->keras.applications<!-- raw HTML omitted -->MobileNetV2 you can use any other model you prefer</p>
 <div class="highlight"><pre class="chroma"><code class="language-py" data-lang="py"><span class="n">model</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">MobileNetV2</span><span class="p">(</span><span class="n">include_top</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">input_shape</span><span class="o">=</span><span class="n">input_shape</span><span class="p">)</span>
 <span class="n">model</span><span class="o">.</span><span class="n">trainable</span> <span class="o">=</span> <span class="bp">False</span>
 
@@ -332,9 +332,7 @@ $$</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">([</span><span class="s1">&#39;train&#39;</span><span class="p">,</span> <span class="s1">&#39;test&#39;</span><span class="p">],</span> <span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper left&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div><p>And the result would be:</p>
-<center>
-<img alt="Accuracy" src="https://i.imgur.com/bn4djUv.png" />
-</center>
+<!-- raw HTML omitted -->
 <p>and you can save the model using <code>model.save</code> or you don&rsquo;t have to if you used <code>ModelCheckpoint</code> callback early on.</p>
 
 </section>
