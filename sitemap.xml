@@ -2,13 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://jerrylasama.xyz/categories/</loc>
-    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://jerrylasama.xyz/tags/data/</loc>
-    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jerrylasama.xyz/categories/data/</loc>
     <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jerrylasama.xyz/tags/en/</loc>
@@ -37,6 +31,8 @@
   </url><url>
     <loc>http://jerrylasama.xyz/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jerrylasama.xyz/categories/</loc>
   </url><url>
     <loc>http://jerrylasama.xyz/search/</loc>
   </url>
