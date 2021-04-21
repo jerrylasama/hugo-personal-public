@@ -12,7 +12,10 @@
         <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
         
         <guid>http://jerrylasama.xyz/p/introduction-to-image-classification-using-keras.applications/</guid>
-        <description>&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+        <description>&lt;p&gt;{{ if or .Params.math .Site.Params.math }}
+{{ partial &amp;ldquo;math.html&amp;rdquo; . }}
+{{ end }}&lt;/p&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;TensorFlow 2&lt;/li&gt;
 &lt;li&gt;Numpy&lt;/li&gt;

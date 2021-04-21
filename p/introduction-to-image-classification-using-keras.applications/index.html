@@ -249,7 +249,10 @@
 </header>
 
     <section class="article-content">
-    <h2 id="requirements">Requirements</h2>
+    <p>{{ if or .Params.math .Site.Params.math }}
+{{ partial &ldquo;math.html&rdquo; . }}
+{{ end }}</p>
+<h2 id="requirements">Requirements</h2>
 <ol>
 <li>TensorFlow 2</li>
 <li>Numpy</li>
