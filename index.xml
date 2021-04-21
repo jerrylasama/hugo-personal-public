@@ -12,7 +12,10 @@
         <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
         
         <guid>http://jerrylasama.xyz/p/introduction-to-image-classification-using-keras.applications/</guid>
-        <description>
+        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.css&#34; integrity=&#34;sha384-Cqd8ihRLum0CCg8rz0hYKPoLZ3uw+gES2rXQXycqnL5pgVQIflxAUDS7ZSjITLb5&#34; crossorigin=&#34;anonymous&#34;&gt;
+&lt;script defer src=&#34;https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.js&#34; integrity=&#34;sha384-1Or6BdeNQb0ezrmtGeqQHFpppNd7a/gw29xeiSikBbsb44xu3uAo8c7FwbF5jhbd&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script defer src=&#34;https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/auto-render.min.js&#34; integrity=&#34;sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl&#34; crossorigin=&#34;anonymous&#34;
+    onload=&#34;renderMathInElement(document.body);&#34;&gt;&lt;/script&gt;
 &lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;TensorFlow 2&lt;/li&gt;
