@@ -13,10 +13,10 @@
       <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>http://jerrylasama.xyz/p/introduction-to-image-classification-using-keras.applications/</guid>
-      <description>{{ if or .Params.math .Site.Params.math }} {{ partial &amp;ldquo;math.html&amp;rdquo; . }} {{ end }}
-Requirements  TensorFlow 2 Numpy Pillow Matplotlib / Seaborn / Your preferred data visualization library  You can easily install those libraries by using pip or conda. For example:
+      <description>Requirements  TensorFlow 2 Numpy Pillow Matplotlib / Seaborn / Your preferred data visualization library  You can easily install those libraries by using pip or conda. For example:
 pip install tensorflow Preparing The Dataset Suppose you have a directory categorized per folder like this:
-dataset/├─ train/│ ├─ dog/│ │ ├─ dog001.jpg│ │ ├─ dog002.jpg│ ├─ cat/│ │ ├─ cat001.</description>
+dataset/
+├─ train/ │ ├─ dog/ │ │ ├─ dog001.jpg │ │ ├─ dog002.jpg │ ├─ cat/ │ │ ├─ cat001.jpg │ │ ├─ cat002.</description>
     </item>
     
   </channel>
